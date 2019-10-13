@@ -1,2 +1,2 @@
 # logipack
-Takes a square logical matrix and returns a cell array of n elements where the kth element corresponds to the kth row of the matrix.
+The function takes a square logical matrix as input and returns a cell array of n elements where the kth element corresponds to the kth row of the matrix. Each element of the cell array is a row vector of positive integers in increasing order representing the column indexes of the logical true values in the given row of the matrix. All other elements in the given row of the logical matrix are false. Note that empty array elements of the cell array corresponding to rows with all false values have a size of 0x0.
